@@ -60,6 +60,7 @@ put it into your Dock
 
 ### Software to be installed and/or verified
 
+- brew
 - Python 3 (and verify python 2.7)
 - Conda
   - jupyter notebook
@@ -87,11 +88,42 @@ https://docs.python-guide.org/starting/install3/osx/
 
 ---
 
-### Conda
-  - jupyter notebook
-- Visual Studio Code
-- postgres mac
-- git
-  - github mac
-- vim & emacs
-- JetBrains - PyCharm and Datagrip
+### Conda / jupyter notebook
+
+https://www.datacamp.com/community/tutorials/installing-anaconda-mac-os-x
+
+---
+
+### Visual Studio Code
+
+https://code.visualstudio.com/download
+
+---
+
+### postgres mac
+
+https://postgresapp.com/
+
+---
+
+### git and github mac
+
+see if it's already on your laptop
+``` bash
+$ git --version
+```
+
+https://desktop.github.com/
+
+--- 
+
+### vim & emacs
+
+``` bash
+$ vim --version
+```
+
+---
+
+### JetBrains - PyCharm and Datagrip
+

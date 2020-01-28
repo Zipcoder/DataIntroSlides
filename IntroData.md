@@ -1,82 +1,97 @@
-# Introduction to Data Engineering
+Introduction to Data Engineering
+
+Zip Code Wilmington
 
 ---
-### Python Bubblesort
 
-``` python
-# Python program for implementation of Bubble Sort
- 
-def bubbleSort(arr):
-    n = len(arr)
- 
-    # Traverse through all array elements
-    for i in range(n):
- 
-        # Last i elements are already in place
-        for j in range(0, n-i-1):
- 
-            # traverse the array from 0 to n-i-1
-            # Swap if the element found is greater
-            # than the next element
-            if arr[j] > arr[j+1] :
-                arr[j], arr[j+1] = arr[j+1], arr[j]
- 
-# Driver code to test above
-arr = [64, 34, 25, 12, 22, 11, 90]
- 
-bubbleSort(arr)
- 
-print ("Sorted array is:")
-for i in range(len(arr)):
-    print ("%d" %arr[i]), 
+### A Table!
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
+
+---
+
+## Professionals Never Lose Code
+
+---
+
+## "Use the Cloud, Luke"
+
+---
+
+### What this means is, your laptop is only a cache.
+### Always, only a cache
+
+---
+
+### ProTip #1 - always COMMIT your work before you leave the keyboard.
+
+#### ProTip #2 - always PUSH your work as well.
+
+---
+
+## Day One
+
+- Handbook Review
+  - Rules and Covenent
+- Accounts
+  - apple_id
+  - slack
+  - github
+  - create Projects folder (Documents)
+- Install software
+
+---
+
+### The Terminal
+
+Your friend. No, really.
+
+``` mac
+command-space
+type "terminal"
+and <return>
 ```
+put it into your Dock
 
 ---
 
-# Data, Baby!
+### Software to be installed and/or verified
 
-- Ideas for course
-- things to look forward to
-- 12 weeks of Hell
-
----
-
-## Foo Bar (Two Section)
-
---
-
-#  Clean Vertical
-
-- foo
-- bar
-- baz
-
---
-
-## A Helicopter
-
-- a aircraft that uses an over-head propeller to maintain airworthiness
-- too loud for civilization
+- Python 3 (and verify python 2.7)
+- Conda
+  - jupyter notebook
+- Visual Studio Code
+- postgres mac
+- git
+  - github mac
+- vim & emacs
+- JetBrains - PyCharm and Datagrip
 
 ---
 
-## Three Section
+### Python 3 (and verify python 2.7)
 
----
-
-## Hateful Eight
-
-- this is a bullet
-- this is another bullet
-
----
-
-#### Hateful Four
-
-- this is a bullet
-- this is another bullet
-
-``` python
-if foo > bar :
-    print "helloe worlde"
+``` bash
+$ python <return>
+/blah/blah/blah
+<ctrl-d>
 ```
+should show version 2.7 of python
+
+then
+
+https://docs.python-guide.org/starting/install3/osx/
+
+---
+
+### Conda
+  - jupyter notebook
+- Visual Studio Code
+- postgres mac
+- git
+  - github mac
+- vim & emacs
+- JetBrains - PyCharm and Datagrip

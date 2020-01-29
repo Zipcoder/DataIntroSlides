@@ -56,18 +56,66 @@ and <return>
 ```
 put it into your Dock
 
+```bash
+ls
+echo 
+date 
+cat
+pwd 
+cd 
+special notations (. and ..)
+* wildcard 
+mkdir
+touch
+cp
+mv 
+rm 
+rmdir 
+file
+pipes |
+less 
+head 
+tail
+tree
+history
+man 
+clear
+reset
+grep 
+input/output redirection 
+chmod 
+ps 
+kill
+w
+du
+df 
+uptime
+su
+vi basics
+ssh
+wget
+tar xvzf
+passwd
+scp 
+md5
+```
+
 ---
 
 ### Software to be installed and/or verified
 
 - brew
+- Xcode
+- JDK 1.8
 - Python 3 (and verify python 2.7)
-- Conda
+- AnaConda
   - jupyter notebook
 - Visual Studio Code
-- postgres mac
+- postgresapp mac
+- mysql (brew)?
+- ggrep
 - git
-  - github mac
+  - github desktop mac
 - vim & emacs
 - JetBrains - PyCharm and Datagrip
 
